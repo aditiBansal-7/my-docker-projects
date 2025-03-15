@@ -50,13 +50,18 @@ docker rm container_id
 ```
 🔗 Repository: [https://github.com/aditiBansal-7/Docker-Basics]
 
-**2️⃣ Docker ML Mushroom Classifier 🍄🤖**
+## **2️⃣ Docker ML Mushroom Classifier 🍄🤖**  
+
 📌 Goal: Deploy an ML model that classifies mushrooms as edible or poisonous using Docker.
 
-🔹 Project Steps:
-✅ Train the model using Scikit-Learn
-✅ Create a Flask API for inference
-✅ Containerize the model using Docker
+🔹 Project Steps:  
+
+✅ Train the model using Scikit-Learn  
+
+✅ Create a Flask API for inference  
+
+✅ Containerize the model using Docker  
+
 
 📜 Setup:
 
@@ -66,8 +71,9 @@ docker run -p 5000:5000 mushroom-classifier
 ```
 🔗 Repository:[https://github.com/aditiBansal-7/docker-ml-mushroom-classifier]
 
-**3️⃣ MySQL using Docker 🗄️**
-📌 Goal: Run a MySQL database inside a Docker container.
+## **3️⃣ MySQL using Docker 🗄️**  
+
+📌 Goal: Run a MySQL database inside a Docker container.  
 
 📜 Setup Commands:
 
@@ -77,11 +83,14 @@ docker exec -it mysql_container mysql -u root -p
 ```
 🔗 Repository: [https://github.com/aditiBansal-7/MySQL-using-Docker]
 
-**4️⃣ Docker Volume Persistence 💾**
+## **4️⃣ Docker Volume Persistence 💾**  
+
 📌 Goal: Learn how to persist data across Docker containers.
 
-🔹 Key Concepts:
-✔ Bind Mounts (host-based persistence)
+🔹 Key Concepts:  
+
+✔ Bind Mounts (host-based persistence)  
+
 ✔ Docker Volumes (managed by Docker)
 
 📜 Commands:
@@ -92,14 +101,18 @@ docker inspect container_id | grep Mounts
 ```
 🔗 Repository: [https://github.com/aditiBansal-7/docker-volume-persistence-]
 
-**5️⃣ Docker Container Communication 🌐**
+## **5️⃣ Docker Container Communication 🌐**  
+
 📌 Goal: Enable communication between multiple Docker containers using networking.
 
 🔹 Topics Covered:
 
-Docker bridge networks
-Connecting multiple containers
-Inspecting network configurations
+Docker bridge networks  
+
+Connecting multiple containers  
+
+Inspecting network configurations  
+
 📜 Commands:
 
 ```sh
@@ -109,14 +122,20 @@ docker inspect my_network
 ```
 🔗 Repository: [https://github.com/aditiBansal-7/docker-container-communication]
 
-**6️⃣ Streamlit & PostgreSQL in Docker 🎨📊**
+## **6️⃣ Streamlit & PostgreSQL in Docker 🎨📊**  
+
 📌 Goal: Deploy a Streamlit app connected to a PostgreSQL database using Docker.
 
-🔹 Project Setup:
-1️⃣ Run PostgreSQL inside Docker
-2️⃣ Create a database & table
-3️⃣ Connect Streamlit to PostgreSQL
-4️⃣ Deploy the app inside a container
+🔹 Project Setup:  
+
+1️⃣ Run PostgreSQL inside Docker  
+
+2️⃣ Create a database & table  
+
+3️⃣ Connect Streamlit to PostgreSQL  
+
+4️⃣ Deploy the app inside a container  
+
 
 📜 Commands:
 
@@ -128,14 +147,21 @@ docker run --network my_postgres_network -p 8501:8501 -d streamlit_app
 ```
 🔗 Repository: [https://github.com/aditiBansal-7/Streamlit-PostgreSQL-in-docker]
 
-**7️⃣ ML Monitoring Dashboard 📊🤖**
-📌 Goal: Monitor ML models in production using Streamlit & Evidently AI.
+## **7️⃣ ML Monitoring Dashboard 📊🤖**  
 
-🔹 Features:
-✔ Data drift detection (feature distribution changes)
-✔ Performance tracking (accuracy, precision, recall)
-✔ Live data monitoring
-✔ Statistical insights with visual reports
+📌 Goal: Monitor ML models in production using Streamlit & Evidently AI.  
+
+
+🔹 Features:  
+
+✔ Data drift detection (feature distribution changes)  
+
+✔ Performance tracking (accuracy, precision, recall)  
+
+✔ Live data monitoring  
+
+✔ Statistical insights with visual reports  
+
 
 📜 Setup & Execution:
 
@@ -149,16 +175,24 @@ streamlit run streamlit-app/app.py
 ```
 🔗 Repository: [https://github.com/aditiBansal-7/ml-monitoring-dashboard]
 
-**8️⃣ Minikube & Kubectl Lab 🏗️🔥**
-📌 Goal: Set up and manage a Kubernetes cluster locally using Minikube & Kubectl.
+## **8️⃣ Minikube & Kubectl Lab 🏗️🔥**  
 
-🔹 Topics Covered:
-✔ Starting a Minikube cluster
-✔ Deploying applications on Kubernetes
-✔ Exposing services with NodePort
-✔ Scaling deployments
+📌 Goal: Set up and manage a Kubernetes cluster locally using Minikube & Kubectl.  
 
-📜 Setup Commands:
+
+🔹 Topics Covered:  
+
+✔ Starting a Minikube cluster  
+
+✔ Deploying applications on Kubernetes  
+
+✔ Exposing services with NodePort  
+
+✔ Scaling deployments  
+
+
+📜 Setup Commands:  
+
 
 ```sh
 minikube start
@@ -171,12 +205,21 @@ kubectl delete deployment nginx
 ```
 🔗 Repository: [https://github.com/aditiBansal-7/minikube-kubectl-lab]
 
-🔗 Summary
-✅ **Docker Basics** – Core Docker concepts
-✅ **ML Mushroom Classifier** – ML model deployment
-✅ **MySQL in Docker** – Database in a container
-✅ **Docker Volumes** – Data persistence
-✅ **Container Communication** – Networking in Docker
-✅ **Streamlit & PostgreSQL** – Web app with a database
-✅ **ML Monitoring Dashboard** – Model performance tracking
-✅ **Minikube & Kubectl** – Kubernetes setup & deployment
+🔗 Summary  
+
+✅ **Docker Basics** – Core Docker concepts  
+
+✅ **ML Mushroom Classifier** – ML model deployment  
+
+✅ **MySQL in Docker** – Database in a container  
+
+✅ **Docker Volumes** – Data persistence  
+
+✅ **Container Communication** – Networking in Docker  
+
+✅ **Streamlit & PostgreSQL** – Web app with a database  
+
+✅ **ML Monitoring Dashboard** – Model performance tracking  
+
+✅ **Minikube & Kubectl** – Kubernetes setup & deployment  
+
