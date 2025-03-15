@@ -2,11 +2,16 @@
 This repository serves as a **central hub** for all my **Docker, Kubernetes, and ML projects**. Each project is containerized, well-documented, and includes step-by-step deployment instructions.  
 
 📌 **Technologies Used:**  
-✅ Docker & Docker Compose 🐳
+✅ Docker & Docker Compose 🐳  
+
 ✅ MySQL & PostgreSQL Databases 🗄️  
+
 ✅ Streamlit for UI 📊  
+
 ✅ ML Model Deployment & Monitoring 🤖  
+
 ✅ Kubernetes with Minikube & Kubectl ⚙️  
+
 
 ---
 
@@ -29,7 +34,7 @@ This repository serves as a **central hub** for all my **Docker, Kubernetes, and
 📌 **Goal:** Learn essential Docker concepts, commands, and best practices.  
 
 🔹 **Topics Covered:**  
-- What is Docker?  
+- What is Docker?
 - Installing Docker  
 - Running containers (`docker run`)  
 - Managing images (`docker pull`, `docker build`)  
