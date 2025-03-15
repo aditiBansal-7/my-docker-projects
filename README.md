@@ -1,4 +1,4 @@
-# my-docker-projects
+# My-Docker-Projects
 This repository serves as a **central hub** for all my **Docker, Kubernetes, and ML projects**. Each project is containerized, well-documented, and includes step-by-step deployment instructions.  
 
 📌 **Technologies Used:**  
