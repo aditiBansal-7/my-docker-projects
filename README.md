@@ -2,7 +2,7 @@
 This repository serves as a **central hub** for all my **Docker, Kubernetes, and ML projects**. Each project is containerized, well-documented, and includes step-by-step deployment instructions.  
 
 📌 **Technologies Used:**  
-✅ Docker & Docker Compose 🐳  
+✅ Docker & Docker Compose 🐳
 ✅ MySQL & PostgreSQL Databases 🗄️  
 ✅ Streamlit for UI 📊  
 ✅ ML Model Deployment & Monitoring 🤖  
