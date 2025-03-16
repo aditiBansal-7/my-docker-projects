@@ -27,6 +27,7 @@ This repository serves as a **central hub** for all my **Docker, Kubernetes, and
 | **6️⃣ Streamlit & PostgreSQL in Docker** | Deploy a Streamlit app connected to PostgreSQL using Docker | [https://github.com/aditiBansal-7/Streamlit-PostgreSQL-in-docker] |
 | **7️⃣ ML Monitoring Dashboard** | Monitor ML models using Streamlit and Evidently AI | [https://github.com/aditiBansal-7/ml-monitoring-dashboard] |
 | **8️⃣ Minikube & Kubectl Lab** | Set up a local Kubernetes cluster and deploy apps | [https://github.com/aditiBansal-7/minikube-kubectl-lab] |
+| **9️⃣ ML Model Deployment using Docker & EC2** | Deploy a Dockerized ML Model using Streamlit on AWS EC2 | https://github.com/aditiBansal-7/Docker_ec2.git |
 
 ---
 
@@ -205,6 +206,59 @@ kubectl delete deployment nginx
 ```
 🔗 Repository: [https://github.com/aditiBansal-7/minikube-kubectl-lab]
 
+**9️⃣ ML Model Deployment Using Docker & EC2 🐳🌍**
+📌 Goal: Deploy an ML model that classifies mushrooms as edible or poisonous using Docker and host it on AWS EC2.
+
+🔹 Topics Covered:
+
+✔ Setting up an AWS EC2 instance
+
+✔ Installing Docker on EC2
+
+✔ Deploying a Dockerized ML Model
+
+✔ Running the Streamlit Web App
+
+✔ Enabling automatic restart for the container
+
+📜 Setup Commands:
+
+# Step 1: Connect to EC2 via SSH
+```
+ssh -i /path/to/your-key.pem ec2-user@your-ec2-public-ip
+```
+
+# Step 2: Install Docker on EC2
+```
+sudo yum update -y
+sudo yum install docker -y
+sudo service docker start
+sudo usermod -a -G docker ec2-user
+exit  # Log out and log back in for changes to take effect
+```
+
+# Step 3: Clone the project and build the Docker image
+```
+git clone https://github.com/aditiBansal-7/Docker_ec2.git
+cd ml-docker-app
+docker build -t streamlit-app .
+```
+
+# Step 4: Run the Streamlit App in a Docker Container
+```
+docker run -d -p 8501:8501 --name my-streamlit-app streamlit-app
+```
+
+# Step 5: Ensure the app restarts automatically after reboot
+```
+sudo docker update --restart unless-stopped my-streamlit-app
+```
+📌 Access the Web App:
+👉 Open your browser and visit http://your-ec2-public-ip:8501
+
+🔗 Repository: [https://github.com/aditiBansal-7/Docker_ec2.git]
+
+
 🔗 Summary  
 
 ✅ **Docker Basics** – Core Docker concepts  
@@ -222,4 +276,10 @@ kubectl delete deployment nginx
 ✅ **ML Monitoring Dashboard** – Model performance tracking  
 
 ✅ **Minikube & Kubectl** – Kubernetes setup & deployment  
+
+✅ **ML Model Deployment Using Docker & EC2** – Deploying and hosting an ML model on Amazon EC2
+
+
+
+ 
 
