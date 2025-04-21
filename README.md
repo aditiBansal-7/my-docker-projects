@@ -33,7 +33,7 @@ This repository serves as a **central hub** for all my **Docker, Kubernetes, and
 | **7 ML Monitoring Dashboard** | Monitor ML models using Streamlit and Evidently AI | [https://github.com/aditiBansal-7/ml-monitoring-dashboard] |
 | **8 Minikube & Kubectl Lab** | Set up a local Kubernetes cluster and deploy apps | [https://github.com/aditiBansal-7/Minikube-and-Kubectl.git] |
 | **9 Evidential AI** | A Dockerized Streamlit dashboard using Evidently AI for ML model monitoring and report management. | [https://github.com/aditiBansal-7/Evidential_AI.git]|
-| **10 Titanic Survival** | Predicts whether a passenger would have survived the Titanic disaster based on various input features. | [https://github.com/aditiBansal-7/Titanic_Survival.git] |
+| **10 Titanic Survival** | Predicts whether a passenger would have survived the Titanic disaster based on various input features. | [https://github.com/aditiBansal-7/titanic_prediction] |
 | **11 Docker Bridge** | Demonstrate network isolation in Docker containers | [https://github.com/aditiBansal-7/Docker-Bridge.git] |  
 | **12 Bakery-Foundation** | Setting up and using Packer to create a machine image (AMI) | [https://github.com/aditiBansal-7/Bakery_Foundation.git] |  
 
