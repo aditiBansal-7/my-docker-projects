@@ -24,7 +24,7 @@ This repository serves as a **central hub** for all my **Docker, Kubernetes, and
 
 | 🔹 Project | 📌 Description | 🔗 Repo Link |
 |------------|--------------|--------------|
-| **1 Docker Basics** | Learn fundamental Docker commands and concepts | [https://github.com/aditiBansal-7/Docker-Basics] |
+| **1 Docker Basics** | Learn fundamental Docker commands and concepts | [https://github.com/aditiBansal-7/Docker-Basics/blob/main/README.md] |
 | **2 Docker ML Mushroom Classifier** | Deploy an ML model for mushroom classification using Docker | [https://github.com/aditiBansal-7/Mushroom_prediction-/blob/master/README.md] |
 | **3 MySQL using Docker** | Set up and run MySQL inside a Docker container | [https://github.com/aditiBansal-7/MySQL-using-Docker] |
 | **4 Docker Volume Persistence** | Persist data across containers using Docker volumes | [https://github.com/aditiBansal-7/docker-volume-persistence-] |
