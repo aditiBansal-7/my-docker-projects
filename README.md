@@ -35,7 +35,9 @@ This repository serves as a **central hub** for all my **Docker, Kubernetes, and
 | **9 Evidential AI** | A Dockerized Streamlit dashboard using Evidently AI for ML model monitoring and report management. | [https://github.com/aditiBansal-7/Evidential_AI/blob/main/README.md]|
 | **10 Titanic Survival** | Predicts whether a passenger would have survived the Titanic disaster based on various input features. | [https://github.com/aditiBansal-7/titanic_prediction/blob/master/README.md] |
 | **11 Docker Bridge** | Demonstrate network isolation in Docker containers | [https://github.com/aditiBansal-7/Docker-Bridge/blob/main/README.md] |  
-| **12 Bakery-Foundation** | Setting up and using Packer to create a machine image (AMI) | [https://github.com/aditiBansal-7/Bakery_Foundation/blob/main/README.md] |  
+| **12 Bakery-Foundation** | Setting up and using Packer to create a machine image (AMI) | [https://github.com/aditiBansal-7/Bakery_Foundation/blob/main/README.md] | 
+| **12 Main Project** | Reflecting on all that has been used from 1-12 | [https://github.com/aditiBansal-7/Decipher-/blob/master/README.md] |  
+
 
 ---
 
